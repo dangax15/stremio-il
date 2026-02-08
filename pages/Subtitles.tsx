@@ -40,11 +40,11 @@ export const Subtitles: React.FC = () => {
             <p className="text-gray-300">
               <span className="font-bold text-white">מומלץ מאוד!</span> התוסף הזה מוסיף עוד המון אפשרויות תרגום איכותיות בעברית שאין במאגר הרגיל. ככה תמיד תהיה לכם אופציה נוספת.
             </p>
-            
+
             <div className="pt-2 flex flex-col sm:flex-row gap-3">
-               <Button href="stremio://ktuvit.strem.fun/manifest.json" target="_blank" className="text-sm px-6 py-3 w-full sm:w-auto justify-center">
-                  התקנת Ktuvit.me
-               </Button>
+              <Button href="https://app.strem.io/shell-v4.4/#/addons/community/all?addon=https%3A%2F%2F4b139a4b7f94-ktuvit-stremio.baby-beamup.club%2Fmanifest.json" target="_blank" className="text-sm px-6 py-3 w-full sm:w-auto justify-center">
+                התקנת Ktuvit.me
+              </Button>
             </div>
             <p className="text-xs text-gray-500">
               (התקנה ידנית: חפשו "Ktuvit" בחיפוש התוספים ולחצו Install)
